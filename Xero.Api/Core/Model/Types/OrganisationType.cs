@@ -9,15 +9,25 @@ namespace Xero.Api.Core.Model.Types
         Company,
         [EnumMember(Value = "CHARITY")]
         Charity,
-        [EnumMember(Value = "CLUBSOCIETY")]
+        [EnumMember(Value = "CLUB_OR_SOCIETY")]
         ClubSociety,
         [EnumMember(Value = "PARTNERSHIP")]
         Partnership,
         [EnumMember(Value = "PERSON")]
         Person,
-        [EnumMember(Value = "SOLETRADER")]
+        [EnumMember(Value = "SOLE_TRADER")]
         SoleTrader,
         [EnumMember(Value = "TRUST")]
-        Trust
+        Trust,
+        [EnumMember(Value = "LOOK_THROUGH_COMPANY")]
+        Look-through Company,
+        [EnumMember(Value = "NOT_FOR_PROFIT")]
+        NotforProfit,
+        [EnumMember(Value = "SELF_MANAGED_SUPERANNUATION_FUND")]
+        SelfManagedSuperannuationFund,
+        [EnumMember(Value = "SUPERANNUATION_FUND")]
+        SuperannuationFund,
+        [EnumMember(Value = "S_CORPORATION")]
+        SCorporation
     }
 }
